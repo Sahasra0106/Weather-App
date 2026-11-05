@@ -42,7 +42,7 @@ Weather-App/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Weather-App.git
+   git clone https://sahasra0106.github.io/Weather-App/
    ```
 2. Open the project folder in VS Code.
 3. Open `index.html` using Live Server.

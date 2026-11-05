@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-container">
+
+        <!-- App Heading -->
+        <h1>Weather App</h1>
+
+        <!-- Search Section -->
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Enter city name"
+            >
+
+            <button id="searchBtn">Search</button>
+
+            <button id="locationBtn">📍 My Location</button>
+
+        </div>
+
+        <!-- Loading Message -->
+        <p id="loading" style="display: none;">
+            Loading weather data...
+        </p>
+
+        <!-- Current Weather Information -->
+        <div class="weather-info">
+
+            <h2 id="cityName">City Name</h2>
+
+            <h1 id="temperature">--°C</h1>
+
+            <h2 id="weatherIcon">🌤️</h2>
+
+            <p id="description">Weather Description</p>
+
+            <!-- Humidity and Wind Speed -->
+            <div class="weather-details">
+
+                <p>
+                    Humidity:
+                    <span id="humidity">--</span>%
+                </p>
+
+                <p>
+                    Wind Speed:
+                    <span id="wind">--</span> km/h
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- 5-Day Weather Forecast -->
+        <div class="forecast-section">
+
+            <h2>5-Day Forecast</h2>
+
+            <div
+                id="forecastContainer"
+                class="forecast-container"
+            >
+                <!-- Forecast cards will be added using JavaScript -->
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
